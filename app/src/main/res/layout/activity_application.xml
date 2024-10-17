@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplicationActivity">
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="О приложение"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="75dp"
+        android:text="Приложение &quot;Электронные книги&quot; - это удобный и функциональный инструмент для любителей чтения, который позволяет наслаждаться любимыми книгами в любое время и в любом месте. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="377dp"
+        android:layout_height="324dp"
+        android:text="Обширная библиотека: Доступ к огромной коллекции электронных книг различных жанров, авторов и издательств.  \nПоиск и фильтрация: Удобные инструменты для поиска книг по ключевым словам, жанру, автору, рейтингу и другим критериям. \nПерсонализация: Создание личной библиотеки, добавление книг в закладки, составление списков желаемого. \nЧтение вне сети: Возможность скачивать книги для чтения без доступа к интернету. \nНастройки чтения: Регулировка размера шрифта, стиля шрифта, яркости экрана, цвета фона и других параметров для комфортного чтения. \nСинхронизация: Сохранение прогресса чтения на разных устройствах. \nДополнительные функции: Встроенный словарь, возможность делать заметки, делиться цитатами в соцсетях."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="55dp"
+        android:background="?attr/homeAsUpIndicator"
+        android:contentDescription="назад"
+        android:backgroundTint="#4F4545"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/editTextText2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
